@@ -1,0 +1,97 @@
+/* {
+    border: 2px solid blue;
+} /**/
+
+html {
+    background-color: white;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 40%;
+    /*background-color: fuchsia;/**/
+    /*background-color: rgb(255,0,255);/**/
+    /*background-color: pink;/**/
+    /*background-color: rgb(255,192,203);/**/
+    /*background-color: rgba(255,192,203,1);/**/
+    background-color: rgba(255,65,125,.55);
+    background-color: #fca6c9;
+    color: white;
+    margin: 1% auto;
+    text-align: center;
+    min-width: 400px;
+    max-width: 900px;
+    padding-bottom: 3%;
+}
+
+body * {
+    width: 65%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.25rem;
+    padding-top: 1rem;
+}
+
+h1:hover {
+    color: black;
+}
+
+.first-quote {
+    font-size: .5rem;
+    font-weight: lighter;
+    padding: .5rem;
+    padding-top: 2rem;
+    letter-spacing: .001rem;
+    word-spacing: .001rem;
+    line-height: .8rem;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.first-quote-cite {
+    font-size: .6rem;
+    padding: 1.5rem;
+    padding-top: .1rem;
+    font-weight: bolder;
+}
+
+ol {
+    color: black;
+    font-weight: bolder;
+}
+
+li {
+    margin:unset;
+    width: 100%;
+    text-align: left;
+    font-size: .7rem;
+    padding: .2rem;
+    padding-top: .1rem;
+    letter-spacing: .001rem;
+    word-spacing: .001rem;
+    font-weight:  bolder;
+}
+
+img {
+    width: 25%;
+    padding: .5rem;
+}
+
+.second-quote {
+    font-family:serif;
+    width: 40%;
+    font-size: 1.5rem;
+    padding: .5rem;
+    padding-bottom: 1.5rem;
+    letter-spacing: .001rem;
+    word-spacing: .001rem;
+}
+
+.second-cite-name, .second-cite-title {
+    color:black;
+    font-size: .8rem;
+    font-weight: bolder;
+    letter-spacing: .001rem;
+    word-spacing: .001rem;
+}

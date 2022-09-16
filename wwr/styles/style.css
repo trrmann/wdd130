@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:ital@1&display=swap');
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #181818   ;
+    --secondary-color: #aaaaaa ;
+    --accent1-color: #e9e9e9;
+    --accent2-color: #12664f;
+    --accent3-color: #99621e;
+  
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Noto Serif", Lora, serif;
+    --paragraph-font: "Noto Sans", Lato, sans-serif;
+  
+    /* these colors below should be chosen from among your palette colors above */
+     --headline-color-on-white:  var(--primary-color);  /* headlines on a white background */ 
+     --headline-color-on-color: var(--accent1-color);  /* headlines on a colored background */ 
+     --paragraph-color-on-white:  var(--primary-color);  /* paragraph text on a white background */ 
+     --paragraph-color-on-color:  var(--accent1-color);  /* paragraph text on a colored background */
+     --header-footer-background-color:  var(--primary-color);
+     --header-footer-color:  var(--accent1-color);
+     --paragraph-background-color:var(--primary-color);
+     --nav-link-color: var(--accent1-color);
+     --nav-background-color: var(--accent2-color);
+     --nav-hover-link-color:  var(--accent1-color);
+     --nav-hover-background-color: var(--accent3-color);
+}
+  
+body {
+    background-color: #fcfbfb;
+    font-family: var(--paragraph-font);
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--header-footer-background-color);
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.logo {
+    width: 80px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--nav-link-color);
+    text-align: center;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+#hero-box img {
+    width:100%;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    font-family: var(--heading-font);
+}
+
+.home-title {
+    color: var(--headline-color-on-white);
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+h4 {
+    color: var(--headline-color-on-white);
+    font-family: var(--heading-font);
+}
+
+.button-box {
+    text-align: center;
+}
+
+.book, .join {
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover, .join:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
+main section {
+    text-align: center;
+}
+
+.card-img {
+    border: 10px solid var(--headline-color-on-white);
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+h2 {
+    font-family: var(--heading-font);
+    margin: 0;
+}
+
+#background {
+    height: 725px;
+    background-color:var(--accent1-color);
+}
+
+.msg {
+    background-color:var(--paragraph-background-color);
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    color: var(--headline-color-on-color);
+    font-family: var(--heading-font);
+}
+
+.msg p {
+    color: var(--paragraph-color-on-color);
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+footer {
+    color: var(--headline-color-on-color);
+    background-color:var(--header-footer-background-color);
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+
+footer p {
+    color: var(--nav-hover-link-color);
+    font-size: 1.2em;
+} 
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+footer a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+
+    color: var(--nav-hover-link-color);
+}
+
