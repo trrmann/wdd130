@@ -2,31 +2,36 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
+/*Luis Urquiza*/
+@import url('https://www.dafont.com/es/search.php?q=Skrapbook');
+@import url('https://www.dafont.com/es/search.php?q=Hey+Comic');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:ital@1&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #181818   ;
-  --secondary-color: #aaaaaa ;
-  --accent1-color: #e9e9e9;
-  --accent2-color: #12664f;
-  --accent3-color: #99621e;
+  --primary-color: #3e3e4d;
+  --secondary-color: #f7bc16;
+  --accent1-color: #732601;
+  --accent2-color: #fee485;
+  --accent3-color: #86836d;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Noto Serif", serif;
-  --paragraph-font: "Noto Sans", sans-serif;
+  --heading-font: "Skrapbook", "Noto Serif", serif;
+  --paragraph-font: "Hey+Comic", "Noto Sans", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #181818;  /* headlines on a white background */ 
-  --headline-color-on-color: #e9e9e9; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #181818; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #e9e9e9; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #181818  ;
-  --nav-link-color: #181818;
-  --nav-background-color: #12664f;
-  --nav-hover-link-color: #e9e9e9;
-  --nav-hover-background-color: #99621e;
+  --headline-color-on-white:  var(--primary-color);  /* headlines on a white background */ 
+  --headline-color-on-color: var(--primary-color);  /* headlines on a colored background */ 
+  --paragraph-color-on-white:  var(--primary-color);  /* paragraph text on a white background */ 
+  --paragraph-color-on-color:  var(--accent1-color);  /* paragraph text on a colored background */
+  --header-footer-background-color:  var(--secondary-color);
+  --header-footer-color:  var(--primary-color);
+  --paragraph-background-color:var(--secondary-color);
+  --nav-link-color: var(--accent1-color);
+  --nav-background-color: var(--accent2-color);
+  --nav-hover-link-color:  var(--secondary-color);
+  --nav-hover-background-color: var(--primary-color);
 
   /* --headline-color-on-white:  var(--primary-color);  /* headlines on a white background */ 
   /* --headline-color-on-color: var(--accent1-color);  /* headlines on a colored background */ 
