@@ -5,8 +5,6 @@ Fonts are separated by a & */
 /*Luis Urquiza*/
 @import url('https://www.dafont.com/es/search.php?q=Skrapbook');
 @import url('https://www.dafont.com/es/search.php?q=Hey+Comic');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif:ital@1&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -17,8 +15,8 @@ Fonts are separated by a & */
   --accent3-color: #86836d;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Skrapbook", "Noto Serif", serif;
-  --paragraph-font: "Hey+Comic", "Noto Sans", sans-serif;
+  --heading-font: "Skrapbook", serif;
+  --paragraph-font: "Hey+Comic", sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white:  var(--primary-color);  /* headlines on a white background */ 
