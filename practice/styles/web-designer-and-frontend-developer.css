@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: white;
+}
+
+.section {
+    background-color: darkgray;
+    width:100%;
+}
+.upper {
+    height: 60%;
+    width:100%;
+}
+
+.circles {
+    width:100%;
+}
+
+.lower {
+    height: 100%;
+}
+
+.img {
+    width: 22%;
+    margin: 4%;
+    background-color: darkslategray;
+    padding: 1%;
+    border-radius: 50%;
+}

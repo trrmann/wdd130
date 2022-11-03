@@ -1,0 +1,42 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    font-size: medium;
+}
+
+.header {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    font-size: 7em;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+.img {
+    grid-column: 1/2;
+    grid-row: 1/5;
+    width: 100%;
+    min-height: 100%;
+}
+
+.cherries {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: darkred;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.greyBox {
+    grid-column: 2/3;
+    grid-row: 1/5;
+    background-color: lightgrey;
+}
+
+.footnote {
+    grid-column: 1/3;
+    grid-row: 5/6;
+}
