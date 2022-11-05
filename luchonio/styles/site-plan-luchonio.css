@@ -31,7 +31,7 @@ Fonts are separated by a & */
   --nav-link-color: var(--accent1-color);
   --nav-background-color: var(--accent2-color);
   --nav-hover-link-color:  var(--secondary-color);
-  --nav-hover-background-color: var(--primary-color);
+  --nav-hover-background-color: var(--accent3-color);
 
   /* --headline-color-on-white:  var(--primary-color);  /* headlines on a white background */ 
   /* --headline-color-on-color: var(--accent1-color);  /* headlines on a colored background */ 
@@ -153,12 +153,12 @@ Fonts are separated by a & */
     display: grid;
     justify-content: center;
   
-    grid-template-columns: repeat(6, 15%);
+    grid-template-columns: repeat(8, 12%);
     grid-template-rows: 3em 1.5em 1.5em 3em;
-    grid-template-areas: ". . home home . ."
-      ". . . top . ."
-      ". left left right right ."
-      "page2 page2 . . page3 page3";
+    grid-template-areas: ". . . home home . . ."
+      ". . . . top . . ."
+      ". left left center center right right ."
+      "page2 page2 . page4 page4 . page3 page3";
   }
   .sitemap > div {
     text-align: center;
@@ -178,7 +178,12 @@ Fonts are separated by a & */
     background-color: #ccc;
     line-height: 3em;
   }
-  .top {
+  .sm-page4 {
+    grid-area: page4;
+    background-color: #ccc;
+    line-height: 3em;
+  }
+    .top {
     grid-area: top;
     border-left: 1px solid;
   }
