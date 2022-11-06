@@ -197,3 +197,7 @@ Fonts are separated by a & */
     border-top: 1px solid;
     border-right: 1px solid;
   }
+  .center {
+    grid-area: center;
+    border-top: 1px solid;
+  }

@@ -6,6 +6,8 @@ html{
     background-color: white;
     border: 1px solid black;
     margin: 1em;
+    margin-left: 20%;
+    margin-right: 20%;
     border-radius: 1em;
 }
 
@@ -18,21 +20,36 @@ html{
 
 .article {
     text-align: center;
-}
-
-.article h2 {
-    color: black;
-    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
 }
 
 .article h4 {
     color: steelblue;
     font-size: .75em;
+    padding-top: 1.75em;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
+.article h2 {
+    color: black;
+    font-size: 2em;
+    padding-top: 0px;
+    padding-bottom: 0.75em;
+    margin: 0px;
+}
+
+.article p {
+    padding: 0px;
+    margin: auto;
+    padding-bottom: 1.5em;
 }
 
 .status-box {
     background-color: steelblue;
     color: white;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1 fr);
     grid-template-areas: 'read-status-data view-status-data comment-status-data'
@@ -44,38 +61,88 @@ html{
 .read-status {
     grid-area: read-status-data read-status-title;
     border-bottom-left-radius: 1em;
+    border-right: 1px solid grey;
+    padding: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0px;
 }
 
 .view-status {
     grid-area: view-status-data view-status-title;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    padding: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0px;
 }
 
 .comment-status {
     grid-area: comment-status-data comment-status-title;
+    border-left: 1px solid grey;
+    padding: 0px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0px;
 }
 
 .read-status-data {
     grid-area: read-status-data;
+    font-size: 1.75em;
+    padding: 0px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.read-status-data sup {
+    font-size: 0.50em;
 }
 
 .read-status-title {
     grid-area: read-status-title;
+    font-size: 0.75em;
+    padding: 0px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .view-status-data {
     grid-area: view-status-data;
+    font-size: 1.75em;
+    padding: 0px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .view-status-title {
     grid-area: view-status-title;
+    font-size: 0.75em;
+    padding: 0px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .comment-status-data {
     grid-area: comment-status-data;
+    font-size: 1.75em;
+    padding: 0px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .comment-status-title {
     grid-area: comment-status-title;
+    font-size: 0.75em;
+    padding: 0px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 /* {
