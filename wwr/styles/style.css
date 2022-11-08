@@ -328,6 +328,7 @@ footer a:hover {
     background-color:var(--paragraph-background-color);
     height: 100%;
     z-index: 2;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .salmon_river_details {
@@ -345,6 +346,7 @@ footer a:hover {
     z-index: 4;
     width: 100%;
     height: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .gray_canyon_card {
@@ -361,6 +363,7 @@ footer a:hover {
     background-color:var(--paragraph-background-color);
     height: 100%;
     z-index: 2;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .gray_canyon_details {
@@ -378,6 +381,7 @@ footer a:hover {
     z-index: 4;
     width: 100%;
     height: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .grand_canyon_card {
@@ -394,6 +398,7 @@ footer a:hover {
     background-color:var(--paragraph-background-color);
     height: 100%;
     z-index: 2;
+    box-shadow: 5px 5px 10px #6f7364;
 }
 
 .grand_canyon_details {
@@ -412,4 +417,28 @@ footer a:hover {
     z-index: 3;
     width: 100%;
     height: 100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.faq-hero {
+    grid-column: 1/4;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+
+.question_answer_pair {
+    grid-column: 2;
+    text-align: left;
+}
+
+.question_answer_pair p {
+    padding-left: 5em;
+    padding-bottom: .5em;
+}
+
+.pair_1 {
+    margin-top: -17%;
 }
