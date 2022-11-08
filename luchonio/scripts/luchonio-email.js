@@ -100,3 +100,23 @@ function messageWhatsAppLink(linkClass, phone, message, content) {
 function messageWhatsAppImgLink(linkClass, imgClass, phone, message, imgSource, imgAlt) {
     messageWhatsAppLink(linkClass, phone, message, '<img class="' + imgClass + '" src=\"' + imgSource + '\" alt=\"' + imgAlt + '\">');
 }
+
+function toUseLaterForMobileVrsLargeScreenJavaScriptoptions(){
+    if (window.matchMedia("(max-width: 700px)").matches) {
+        // Viewport is less or equal to 700 pixels wide
+      } else {
+        // Viewport is greater than 700 pixels wide
+      }
+
+//      in conjunctioned with css as follows:
+
+//      @media screen and (max-width: 992px) {
+//        .column {
+//          width: 50%;
+//        }
+//      }
+
+//       "Mobile Navigation Bar" - https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+
+
+}
