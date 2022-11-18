@@ -489,11 +489,13 @@ main {
         padding: 0px;
         margin: 0px;
     }
+
     .content {
         height: 9rem;
-        grid-template-columns: 0fr 8fr 0fr;
-        grid-template-rows: repeat(20, 1fr) 10rem;
         margin: 0px;
+        display: grid;
+        grid-template-columns: 0fr 8fr 0fr;
+        grid-template-rows: .5fr 3fr 20fr .5fr;
     }
     
     .header {
@@ -653,6 +655,11 @@ main {
         height: 1rem;
     }
     
+    .footer {
+        grid-row: 4;
+        grid-column: 1/4;
+    }
+
     .footer p {
         padding-left: 1.25rem;
     }
