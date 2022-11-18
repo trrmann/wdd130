@@ -349,7 +349,7 @@ section {
     font-weight: bolder;
     display: grid;
     grid-template-columns: 2rem 1fr 2rem;
-    grid-template-rows: repeat(16, 3rem);
+    grid-template-rows: repeat(16, 2rem);
 }
 
 .home-msg h2 {
