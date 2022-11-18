@@ -122,7 +122,6 @@ section.mySlides {
     background-image: linear-gradient(var(--nav-background-color), var(--paragraph-background-color));
     grid-column: 1;
     grid-row: 2/4;
-    height: 5fr;
 }
 
 .nav_link {
