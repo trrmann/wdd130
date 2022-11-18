@@ -492,9 +492,8 @@ main {
     .content {
         height: 9rem;
         grid-template-columns: 0fr 8fr 0fr;
-        grid-template-rows: repeat(20, fr) 10rem;
-        margin: 0;
-        border: 1px solid purple;
+        grid-template-rows: repeat(20, 1fr) 10rem;
+        margin: 0px;
     }
     
     .header {
