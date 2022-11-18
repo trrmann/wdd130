@@ -1,84 +1,98 @@
 <!DOCTYPE html>
 <html lang="es-pe">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Luchonio Portafolio</title>
-        <link rel="stylesheet" href="styles/style.css">
-    </head>
-    <body class = "content">
-        <!-- <script src="scripts/"></script> -->
-        <header class="header">
-            <a class="logo_link" href="index-es.html">
-                <img class="logo" src="images/luchonio_logo.png" alt="Luchonio's Logo">
-            </a>
-            <nav class="language_navigation">
-              <a class="language_link" href="index-es.html"><img src="images/spain-flag-icon.png" alt="Spain Flag Icon">Español</a>
-              <a class="language_link" href="index-en.html"><img src="images/american-flag-icon.png" alt="American Flag Icon">Inglés</a>
-            </nav>
-        </header>
-        <nav class="navigation">
-            <a class="nav_link" href="index-es.html">Hogar</a>
-            <a class="nav_link" href="gallery-es.html">Galeria</a>
-            <a class="nav_link" href="fantasy-gallery-es.html">Galeria de Fantasia</a>
-            <button id="tab1" class="nav_link tablinks" onclick="currentSlide(1)">Ambarine</button>
-            <button id="tab2" class="nav_link tablinks" onclick="currentSlide(2)">Mommy Long Leggs Boceto</button>
-            <button id="tab3" class="nav_link tablinks" onclick="currentSlide(3)">Buttercup</button>
-            <a class="nav_link" href="contact-luchonio-es.html">Contactar a Luchonio</a>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luchonio Portafolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body class="content">
+    <!-- <script src="scripts/"></script> -->
+    <header class="header">
+        <a class="logo_link" href="index-es.html">
+            <img class="logo" src="images/luchonio_logo.png" alt="Luchonio's Logo">
+        </a>
+        <nav class="language_navigation">
+            <a class="language_link" href="index-es.html"><img src="images/spain-flag-icon.png"
+                    alt="Spain Flag Icon">Español</a>
+            <a class="language_link" href="index-en.html"><img src="images/american-flag-icon.png"
+                    alt="American Flag Icon">Inglés</a>
         </nav>
-        <section class="hero">
-            <img class="hero-img" src="images/grupal.png" alt="grupal">
-            <h2 class="home-title">Contacta con Luchonio y haz tus gráficos a tu manera</h2>
-            <div class="button-box">
-                <a class="contact_button" href="contact-luchonio-es.html">Contactar a Luchonio</a>
-            </div>
-        </section>
-        <main class="home-grid">
+    </header>
+    <nav class="navigation">
+        <a class="nav_link" href="index-es.html">Hogar</a>
+        <a class="nav_link" href="gallery-es.html">Galeria</a>
+        <a class="nav_link" href="fantasy-gallery-es.html">Galeria de Fantasia</a>
+        <button id="tab1" class="nav_link tablinks" onclick="currentSlide(1)">Ambarine</button>
+        <button id="tab2" class="nav_link tablinks" onclick="currentSlide(2)">Mommy Long Leggs Boceto</button>
+        <button id="tab3" class="nav_link tablinks" onclick="currentSlide(3)">Buttercup</button>
+        <a class="nav_link" href="contact-luchonio-es.html">Contactar a Luchonio</a>
+    </nav>
+    <section class="hero">
+        <img class="hero-img" src="images/grupal.png" alt="grupal">
+        <h2 class="home-title">Contacta con Luchonio y haz tus gráficos a tu manera</h2>
+        <div class="button-box">
+            <a class="contact_button" href="contact-luchonio-es.html">Contactar a Luchonio</a>
+        </div>
+    </section>
+    <main>
+        <div class="home-grid">
             <div class="background">
                 <!-- Next and previous buttons -->
                 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
                 <div class="container">
-                <h1>Mira este!</h1>
-                <!-- Full-width images with number text -->
-                <section class="mySlides ambarine-home-card">
-                    <h2>Ambarine</h2>
-                    <div class="numbertext">1 / 3</div>
-                    <a href="gallery-es.html"><img class="home-card-img" src="images/ambarine.png" alt="Ambarine"></a>
-                    <p>Conoce a Ambarine</p>
-                  </section>
-                  <section class="mySlides mommy_long_leggs_boceto-home-card">
-                    <h2>Mommy Long Leggs Boceto</h2>
-                    <div class="numbertext">2 / 3</div>
-                    <a href="fantasy-gallery-es.html"><img class="home-card-img" src="images/mommy_long_leggs_boceto.png" alt="Mommy Long Leggs Boceto"></a>
-                    <p>Conoce el Mommy Long Leggs Boceto</p>
-                  </section>
-                  <section class="mySlides buttercup-home-card">
-                    <h2>Buttercup</h2>
-                    <div class="numbertext">3 / 3</div>
-                    <a href="gallery-es.html"><img class="home-card-img" src="images/buttercup.png" alt="Buttercup"></a>
-                    <p>Conoce a Buttercup</p>
-                  </section>
-                <h2>Contacta con nosotros y hazlo a tu manera</h2>
-                <!-- Thumbnail images -->
-                <div class="row">
-                    <div class="column">
-                        <img class="demo cursor" src="images/ambarine.png" onclick="currentSlide(1)" alt="Ambarine">
+                    <h1>Mira este!</h1>
+                    <!-- Full-width images with number text -->
+                    <section class="mySlides ambarine-home-card">
+                        <h2>Ambarine</h2>
+                        <div class="numbertext">1 / 3</div>
+                        <a href="gallery-es.html"><img class="home-card-img" src="images/ambarine.png"
+                                alt="Ambarine"></a>
+                        <p>Conoce a Ambarine</p>
+                    </section>
+                    <section class="mySlides mommy_long_leggs_boceto-home-card">
+                        <h2>Mommy Long Leggs Boceto</h2>
+                        <div class="numbertext">2 / 3</div>
+                        <a href="fantasy-gallery-es.html"><img class="home-card-img"
+                                src="images/mommy_long_leggs_boceto.png" alt="Mommy Long Leggs Boceto"></a>
+                        <p>Conoce el Mommy Long Leggs Boceto</p>
+                    </section>
+                    <section class="mySlides buttercup-home-card">
+                        <h2>Buttercup</h2>
+                        <div class="numbertext">3 / 3</div>
+                        <a href="gallery-es.html"><img class="home-card-img" src="images/buttercup.png"
+                                alt="Buttercup"></a>
+                        <p>Conoce a Buttercup</p>
+                    </section>
+                    <h2>Contacta con nosotros y hazlo a tu manera</h2>
+                    <!-- Thumbnail images -->
+                    <div class="row">
+                        <div class="column">
+                            <img class="demo cursor" src="images/ambarine.png" onclick="currentSlide(1)" alt="Ambarine">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/mommy_long_leggs_boceto.png" onclick="currentSlide(2)"
+                                alt="Mommy Long Leggs Boceto">
+                        </div>
+                        <div class="column">
+                            <img class="demo cursor" src="images/buttercup.png" onclick="currentSlide(3)"
+                                alt="Buttercup">
+                        </div>
                     </div>
-                    <div class="column">
-                        <img class="demo cursor" src="images/mommy_long_leggs_boceto.png" onclick="currentSlide(2)" alt="Mommy Long Leggs Boceto">
-                    </div>
-                    <div class="column">
-                        <img class="demo cursor" src="images/buttercup.png" onclick="currentSlide(3)" alt="Buttercup">
-                    </div>
-                </div>
                 </div>
             </div>
             <script src="scripts/verticle_tabs_with_slide_show.js"></script>
             <section class="home-msg">
                 <h2>Póngase en contacto con Luchonio para que haga sus propios personajes de dibujos animados</h2>
-                <p>Luchonio's manera de dibujar se caracteriza por tener un estilo cartoon tipoco de las series emitidas por cartoon network en la epoca de los 2000, convinado con algunos razgos de las animaciones japonesas como lo son los ojos grandes y las formas estilizadas.</p>
+                <p>Luchonio's manera de dibujar se caracteriza por tener un estilo cartoon tipoco de las series emitidas
+                    por
+                    cartoon network en la epoca de los 2000, convinado con algunos razgos de las animaciones japonesas
+                    como
+                    lo son los ojos grandes y las formas estilizadas.</p>
                 <h2>Luchonio también puede ayudarlo con su logotipo</h2>
             </section>
             <section class="msg">
@@ -86,25 +100,27 @@
                 <img class="gwen-home" src="images/gwen.png" alt="Gwen">
                 <a class="see_more_button" href="gallery-es.html">Ver más</a>
             </section>
-        </main>
-        <footer class="footer">
-            <p>El arte de Luchonio &copy; 2022 - Tracy Mann</p>
-            <p><a href="site-plan-luchonio-es.html">Plan de Sitio</a></p>
-            <p><a href="contact-luchonio-es.html">Contactar a Luchonio</a></p>
-            <div class="social">
-                <a href="https://facebook.com" target="_blank">
-                    <img src="images/facebook.png" alt="fb icon">
-                </a>
-                <a href="https://twitter.com" target="_blank">
-                    <img src="images/twitter.png" alt="twitter icon">
-                </a>
-                <a href="https://www.whatsapp.com/" target="_blank">
-                  <img src="images/whatsapp.png" alt="whatsapp icon">
-                </a>
-                <!-- <script type="text/javascript">
+        </div>
+    </main>
+    <footer class="footer">
+        <p>El arte de Luchonio &copy; 2022 - Tracy Mann</p>
+        <p><a href="site-plan-luchonio-es.html">Plan de Sitio</a></p>
+        <p><a href="contact-luchonio-es.html">Contactar a Luchonio</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://www.whatsapp.com/" target="_blank">
+                <img src="images/whatsapp.png" alt="whatsapp icon">
+            </a>
+            <!-- <script type="text/javascript">
                     messageWhatsAppImgLink("linkClass", "imgClass", "luchonio", "I am Calling!", "images/whatsapp.png", "whatsapp icon");
                 </script> -->
-            </div>
-        </footer>
-    </body>
+        </div>
+    </footer>
+</body>
+
 </html>

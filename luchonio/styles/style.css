@@ -1,56 +1,58 @@
-
-
 /*actual brand @import url('https://www.dafont.com/es/search.php?q=Skrapbook');*/
 /*actual brand @import url('https://www.dafont.com/es/search.php?q=Hey+Comic');*/
 /* web safe brand */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Edu+QLD+Beginner:wght@600&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
-  --primary-color: #3e3e4d;
-  --secondary-color: #f7bc16;
-  --accent1-color: #732601;
-  --accent2-color: #fee485;
-  --accent3-color: #86836d;
+    /* change the values below to your colors from your palette */
+    --primary-color: #3e3e4d;
+    --secondary-color: #f7bc16;
+    --accent1-color: #732601;
+    --accent2-color: #fee485;
+    --accent3-color: #86836d;
 
-  /* change the values below to your chosen font(s) */
-  --heading-font: "Caveat", serif;
-  --paragraph-font: "Edu QLD Beginner", sans-serif;
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Caveat", serif;
+    --paragraph-font: "Edu QLD Beginner", sans-serif;
 
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white:  var(--primary-color);  /* headlines on a white background */ 
-  --headline-color-on-color: var(--primary-color);  /* headlines on a colored background */ 
-  --paragraph-color:  var(--primary-color);  /* paragraph text on a white background */ 
-  --paragraph-color-on-color:  var(--accent1-color);  /* paragraph text on a colored background */
-  --header-footer-background-color:  var(--secondary-color);
-  --header-footer-color:  var(--primary-color);
-  --paragraph-background-color:var(--secondary-color);
-  --nav-link-color: var(--accent1-color);
-  --nav-background-color: var(--accent2-color);
-  --nav-hover-link-color:  var(--secondary-color);
-  --nav-hover-background-color: var(--accent3-color);
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: var(--primary-color);
+    /* headlines on a white background */
+    --headline-color-on-color: var(--primary-color);
+    /* headlines on a colored background */
+    --paragraph-color: var(--primary-color);
+    /* paragraph text on a white background */
+    --paragraph-color-on-color: var(--accent1-color);
+    /* paragraph text on a colored background */
+    --header-footer-background-color: var(--secondary-color);
+    --header-footer-color: var(--primary-color);
+    --paragraph-background-color: var(--secondary-color);
+    --nav-link-color: var(--accent1-color);
+    --nav-background-color: var(--accent2-color);
+    --nav-hover-link-color: var(--secondary-color);
+    --nav-hover-background-color: var(--accent3-color);
 
-  /* --headline-color-on-white:  var(--primary-color);  /* headlines on a white background */ 
-  /* --headline-color-on-color: var(--accent1-color);  /* headlines on a colored background */ 
-  /* --paragraph-color-on-white:  var(--primary-color);  /* paragraph text on a white background */ 
-  /* --paragraph-color-on-color:  var(--accent1-color);  /* paragraph text on a colored background */ 
-  /* --paragraph-background-color:var(--primary-color); */
-  /* --nav-link-color: var(--primary-color); */
-  /* --nav-background-color: var(--accent2-color); */
-  /* --nav-hover-link-color:  var(--accent1-color); */
-  /* --nav-hover-background-color: var(--accent3-color); */
+    /* --headline-color-on-white:  var(--primary-color);  /* headlines on a white background */
+    /* --headline-color-on-color: var(--accent1-color);  /* headlines on a colored background */
+    /* --paragraph-color-on-white:  var(--primary-color);  /* paragraph text on a white background */
+    /* --paragraph-color-on-color:  var(--accent1-color);  /* paragraph text on a colored background */
+    /* --paragraph-background-color:var(--primary-color); */
+    /* --nav-link-color: var(--primary-color); */
+    /* --nav-background-color: var(--accent2-color); */
+    /* --nav-hover-link-color:  var(--accent1-color); */
+    /* --nav-hover-background-color: var(--accent3-color); */
 }
 
-/**
-section {
+section.mySlides {
     height: 0px;
+    width: 0px;
 }
-/**/
 
 .content {
     background-color: var(--accent2-color);
     color: var(--paragraph-color);
     display: grid;
+    height: 9rem;
     grid-template-columns: 2fr 8fr 1fr;
     grid-template-rows: .5fr 3fr 20fr .5fr;
     margin: 0;
@@ -85,14 +87,14 @@ section {
     gap: .5rem;
     margin-top: 1rem;
     margin-bottom: auto;
-    margin-left:auto;
+    margin-left: auto;
     margin-right: 1rem;
     width: 10rem;
 }
 
 .language_link {
     font: var(--heading-font);
-    text-decoration: none;    
+    text-decoration: none;
     border-radius: .5em;
     margin-right: 3em;
     padding-left: .5em;
@@ -120,6 +122,7 @@ section {
     background-image: linear-gradient(var(--nav-background-color), var(--paragraph-background-color));
     grid-column: 1;
     grid-row: 2/4;
+    height: 5fr;
 }
 
 .nav_link {
@@ -127,9 +130,10 @@ section {
     font: var(--heading-font);
     text-decoration: none;
     text-align: left;
-    font-size:x-large;
+    font-size: x-large;
     padding: 1em;
-    background-color: var(--nav-background-color);
+    /*background-color: var(--nav-background-color);*/
+    background-color: unset;
     color: var(--nav-link-color);
     width: 100%;
     border: unset;
@@ -138,8 +142,8 @@ section {
 .nav_link:hover {
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color);
-    border-top-left-radius : 1em;
-    border-bottom-left-radius : 1em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
     width: 100%;
     text-align: left;
 }
@@ -148,17 +152,17 @@ section {
 .navigation button.active {
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color);
-    border-top-left-radius : 1em;
-    border-bottom-left-radius : 1em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
 }
-  
+
 .navigation button.active:hover {
     background-color: var(--nav-hover-link-color);
     color: var(--nav-hover-background-color);
-    border-top-left-radius : 1em;
-    border-bottom-left-radius : 1em;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
 }
-  
+
 .hero {
     background-image: linear-gradient(var(--nav-background-color), var(--paragraph-background-color));
     color: var(--paragraph-color-on-color);
@@ -216,12 +220,25 @@ section {
     border-style: outset;
 }
 
-.home-grid {
+main {
     grid-row: 3;
     grid-column: 2/4;
-    height: 35rem;
+    padding: 0;
+    height: 75rem;
     display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.home-grid {
+    grid-row: 1;
+    grid-column: 1;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    height: 75rem;
     grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 1fr);
 }
 
 .home-grid h1 {
@@ -246,11 +263,11 @@ section {
 
 /* Position the image container (needed to position the left and right arrows) */
 .background {
+    grid-row: 1/10;
+    grid-column: 1/16;
     background-color: var(--header-footer-background-color);
     background-image: radial-gradient(circle, var(--nav-background-color), var(--paragraph-background-color));
     color: var(--paragraph-color-on-color);
-    order: 1;
-    grid-column: 1/16;
     display: grid;
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(10, 1fr);
@@ -274,7 +291,7 @@ section {
 .cursor {
     cursor: pointer;
 }
-  
+
 /* Next & previous buttons */
 .prev,
 .next {
@@ -289,18 +306,18 @@ section {
     user-select: none;
     -webkit-user-select: none;
 }
-  
+
 /* Position the "next button" to the right */
 .next {
     grid-column: 13;
 }
-  
+
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
     color: var(--nav-background-color);
 }
-  
+
 /* Number text (1/3 etc) */
 .numbertext {
     color: var(--paragraph-color-on-color);
@@ -308,77 +325,81 @@ section {
     padding: 8px 12px;
     text-align: right;
 }
-  
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
-  
+
 .column {
     float: left;
     width: 25%;
     padding: 4%;
 }
-  
+
 /* Add a transparency effect for thumnbail images */
 .demo {
     opacity: 0.6;
 }
-  
+
 .active,
-  .demo:hover {
+.demo:hover {
     opacity: 1;
 }
 
+/**/
 .home-card-img {
     width: 100%;
     border-radius: 2rem;
     border-style: outset;
 }
+/**/
 
 .demo {
     width: 100%;
 }
 
 .home-msg {
-    order: 2;
-    grid-column: 2/10;
+    grid-row: 10/13;
+    grid-column: 2/12;
     color: var(--headline-color-on-color);
     font: var(--heading-font);
     font-weight: bolder;
+    height: 20rem;
     display: grid;
     grid-template-columns: 2rem 1fr 2rem;
     grid-template-rows: repeat(16, 2rem);
 }
 
 .home-msg h2 {
-    grid-row: 1;
+    grid-row: 2/4;
     grid-column: 2;
     margin-top: 1rem;
 }
 
 .home-msg h2:nth-of-type(2) {
-    grid-row: 6;
+    grid-row: 8/10;
     grid-column: 2;
     margin-bottom: 0;
 }
 
 .home-msg p {
-    grid-row: 4;
+    grid-row: 5/8;
     grid-column: 2;
     text-indent: 10%;
 }
 
 .msg {
-    order: 2;
-    grid-column: 10/16;
+    grid-row: 10/13;
+    grid-column: 12/16;
+    height: 20rem;
     display: grid;
     grid-template-columns: 1fr 1fr 15fr 1fr 1fr;
     grid-template-rows: 2rem 2rem 2rem 6rem 3rem 3rem;
 }
 
-.msg h1 {
+.msg h2 {
     grid-row: 1;
     grid-column: 3;
 }
