@@ -662,7 +662,6 @@ section.mySlides p {
         grid-row: 1/6;
         grid-column: 1/101;
         padding: 0 1%;
-        border: 1px dashed red;
     }
     /**/
 
@@ -1087,7 +1086,7 @@ section.mySlides p {
     .footer-social-img {
         height: 65%;
         width: 65%;
-        padding: 25%;
+        padding: 20%;
     }
     /**/
 
@@ -1118,7 +1117,6 @@ section.mySlides p {
         grid-row: 1/8;
         grid-column: 1/101;
         padding: 0 1%;
-        border: 1px solid red;
     }
     /**/
 
@@ -1290,7 +1288,7 @@ section.mySlides p {
 
     /**/
     .home-slide-show {
-        grid-row: 31/86;
+        grid-row: 31/78;
         grid-column: 31/101;
     }
     /**/
@@ -1359,7 +1357,7 @@ section.mySlides p {
 
     /**/
     .home-msg {
-        grid-row: 86/101;
+        grid-row: 78/101;
         grid-column: 31/76;
         padding: 2%;
     }
@@ -1367,49 +1365,49 @@ section.mySlides p {
 
     /**/
     .home-msg h2 {
-        grid-row: 1/26;
+        grid-row: 11/26;
     }
     /**/
 
     /**/
     .home-msg p {
-        grid-row: 26/76;
+        grid-row: 36/76;
     }
     /**/
 
     /**/
     .home-msg h2:nth-of-type(2) {
-        grid-row: 76/101;
+        grid-row: 86/101;
     }
     /**/
 
     /**/
     .home-see-more {
-        grid-row: 86/101;
+        grid-row: 78/101;
         grid-column: 76/101;
         padding: 2%;
     }
     /**/
 
     /**/
-    .msg h2 {
-        grid-row: 1/26;
+    .home-see-more-grid h2 {
+        grid-row: 11/26;
         grid-column: 1/101;
     }
     /**/
 
     /**/
     .gwen-home {
-        grid-row: 26/101;
+        grid-row: 35/87;
         grid-column: 1/101;
-        height: 96%;
-        width: 96%;
+        height: 100%;
+        width: 100%;
     }
     /**/
 
     /**/
     .home-see-more-button {
-        grid-row: 76/101;
+        grid-row: 81/86;
         grid-column: 1/101;
     }
     /**/
@@ -1544,7 +1542,7 @@ section.mySlides p {
     .footer-social-img {
         height: 65%;
         width: 65%;
-        padding: 25%;
+        padding: 15%;
     }
     /**/
 
@@ -1576,7 +1574,6 @@ section.mySlides p {
         grid-row: 1/8;
         grid-column: 1/101;
         padding: 0 1%;
-        border: 1px dashed purple;
     }
     /**/
 
@@ -1749,7 +1746,7 @@ section.mySlides p {
 
     /**/
     .home-slide-show {
-        grid-row: 31/86;
+        grid-row: 31/78;
         grid-column: 31/101;
     }
     /**/
@@ -1818,7 +1815,7 @@ section.mySlides p {
 
     /**/
     .home-msg {
-        grid-row: 86/101;
+        grid-row: 78/101;
         grid-column: 31/76;
         padding: 2%;
     }
@@ -1826,49 +1823,49 @@ section.mySlides p {
 
     /**/
     .home-msg h2 {
-        grid-row: 1/26;
+        grid-row: 11/26;
     }
     /**/
 
     /**/
     .home-msg p {
-        grid-row: 26/76;
+        grid-row: 36/76;
     }
     /**/
 
     /**/
     .home-msg h2:nth-of-type(2) {
-        grid-row: 76/101;
+        grid-row: 86/101;
     }
     /**/
 
     /**/
     .home-see-more {
-        grid-row: 86/101;
+        grid-row: 78/101;
         grid-column: 76/101;
         padding: 2%;
     }
     /**/
 
     /**/
-    .msg h2 {
-        grid-row: 1/26;
+    .home-see-more-grid h2 {
+        grid-row: 11/26;
         grid-column: 1/101;
     }
     /**/
 
     /**/
     .gwen-home {
-        grid-row: 26/101;
+        grid-row: 35/87;
         grid-column: 1/101;
-        height: 96%;
-        width: 96%;
+        height: 100%;
+        width: 100%;
     }
     /**/
 
     /**/
     .home-see-more-button {
-        grid-row: 76/101;
+        grid-row: 81/86;
         grid-column: 1/101;
     }
     /**/
@@ -2001,9 +1998,9 @@ section.mySlides p {
 
     /**/
     .footer-social-img {
-        height: 40%;
+        height: 80%;
         width: 40%;
-        padding: 15%;
+        padding: 5%;
     }
     /**/
 
@@ -2015,7 +2012,7 @@ section.mySlides p {
     /**
     .footer-social-twitter-img {
     }
-    /**/
+    /**/le
 
     /**
     .footer-social-whatsapp-img {
@@ -2031,7 +2028,6 @@ section.mySlides p {
         grid-row: 1/7;
         grid-column: 1/101;
         padding: 0 1%;
-        border: 1px solid purple;
     }
 
     .header-grid {
@@ -2166,7 +2162,7 @@ section.mySlides p {
     }
 
     .home-slide-show {
-        grid-row: 31/86;
+        grid-row: 31/78;
         grid-column: 21/101;
     }
 
@@ -2216,50 +2212,68 @@ section.mySlides p {
         padding: 1.5% 0;
     }
 
+    /**/
     .home-msg {
-        grid-row: 86/101;
-        grid-column: 21/65;
+        grid-row: 78/101;
+        grid-column: 31/76;
         padding: 2%;
     }
+    /**/
 
+    /**/
     .home-msg h2 {
-        grid-row: 1/26;
+        grid-row: 11/26;
     }
+    /**/
 
+    /**/
     .home-msg p {
-        grid-row: 41/76;
+        grid-row: 36/76;
     }
+    /**/
 
+    /**/
     .home-msg h2:nth-of-type(2) {
-        grid-row: 76/101;
-    }
-
-    .home-see-more {
         grid-row: 86/101;
-        grid-column: 65/101;
+    }
+    /**/
+
+    /**/
+    .home-see-more {
+        grid-row: 78/101;
+        grid-column: 76/101;
         padding: 2%;
     }
+    /**/
 
-    .msg h2 {
-        grid-row: 1/16;
+    /**/
+    .home-see-more-grid h2 {
+        grid-row: 11/26;
         grid-column: 1/101;
     }
+    /**/
 
+    /**/
     .gwen-home {
-        grid-row: 16/101;
+        grid-row: 35/87;
         grid-column: 1/101;
-        height: 96%;
-        width: 96%;
+        height: 100%;
+        width: 100%;
     }
+    /**/
 
+    /**/
     .home-see-more-button {
-        grid-row: 86/101;
+        grid-row: 81/86;
         grid-column: 1/101;
     }
+    /**/
 
+    /**/
     .see_more_button {
         padding: .5%;
     }
+    /**/
 
     .footer {
         grid-row: 98/101;
@@ -2351,9 +2365,9 @@ section.mySlides p {
     }
 
     .footer-social-img {
-        height: 35%;
+        height: 70%;
         width: 35%;
-        padding: 20%;
+        padding: 10%;
     }
 
     /**
