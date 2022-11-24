@@ -1301,14 +1301,14 @@ section.mySlides p {
     /**/
 
     /**/
-    .main-grid h1 {
+    .home-slide-show-display h1 {
         grid-row: 2/7;
         grid-column: 1/101;
     }
     /**/
 
     /**/
-    .main-grid section {
+    .home-slide-show-display section {
         grid-row: 7/73;
         grid-column: 1/101;
         padding: 0 8%;
@@ -1341,7 +1341,7 @@ section.mySlides p {
 
     /**/
     .main-grid h2 {
-        grid-row: 73/78;
+        grid-row: 76/81;
         grid-column: 1/101;
         padding: 1%;
     }
@@ -1759,14 +1759,14 @@ section.mySlides p {
     /**/
 
     /**/
-    .main-grid h1 {
+    .home-slide-show-display h1 {
         grid-row: 2/7;
         grid-column: 1/101;
     }
     /**/
 
     /**/
-    .main-grid section {
+    .home-slide-show-display section {
         grid-row: 7/73;
         grid-column: 1/101;
         padding: 0 8%;
@@ -1799,7 +1799,7 @@ section.mySlides p {
 
     /**/
     .main-grid h2 {
-        grid-row: 73/78;
+        grid-row: 76/81;
         grid-column: 1/101;
         padding: 1%;
     }
@@ -2172,12 +2172,12 @@ section.mySlides p {
         grid-column: 1/101;
     }
 
-    .main-grid h1 {
+    .home-slide-show-display h1 {
         grid-row: 2/7;
         grid-column: 1/101;
     }
 
-    .main-grid section {
+    .home-slide-show-display section {
         grid-row: 7/73;
         grid-column: 1/101;
         padding: 0 8%;
@@ -2202,7 +2202,7 @@ section.mySlides p {
     }
 
     .main-grid h2 {
-        grid-row: 73/78;
+        grid-row: 76/81;
         grid-column: 1/101;
         padding: 1%;
     }
