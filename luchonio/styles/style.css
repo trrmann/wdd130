@@ -2163,7 +2163,7 @@ section.mySlides p {
     }
 
     .home-slide-show {
-        grid-row: 37/88;
+        grid-row: 37/90;
         grid-column: 21/101;
     }
 
@@ -2215,7 +2215,7 @@ section.mySlides p {
 
     /**/
     .home-msg {
-        grid-row: 88/101;
+        grid-row: 90/101;
         grid-column: 31/76;
         padding: 2%;
     }
@@ -2241,7 +2241,7 @@ section.mySlides p {
 
     /**/
     .home-see-more {
-        grid-row: 88/101;
+        grid-row: 90/101;
         grid-column: 76/101;
         padding: 2%;
     }
