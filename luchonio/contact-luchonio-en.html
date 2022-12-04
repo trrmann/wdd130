@@ -31,18 +31,28 @@
                     <a class="nav_link" href="fantasy-gallery-en.html">Fantasy Gallery</a>
                     <a class="nav_link" href="contact-luchonio-en.html">Contact Luchonio</a>
                 </nav>
-                <div class="background">
-                    <h1>Contact Luchonio</h1>
-                    <form>
-                        <label>XXX</label>
+                <div class="contact-background">
+                    <h1 class="contact-headline">Contact Luchonio</h1>
+                    <div id="feedback"></div>
+                    <form class="form" action="my-handling-form-page" method="post">
+                        <ul class="list">
+                            <li>
+                                <label class="label" for="name">Name:</label>
+                                <input class="input" type="text" id="name" name="user_name" />
+                            </li>
+                            <li>
+                                <label class="label" for="mail">E-mail:</label>
+                                <input class="input" type="text" id="mail" name="user_email" />
+                            </li>
+                            <li>
+                                <label class="label" for="msg">Message:</label>
+                                <textarea id="msg" class="textarea" name="user_message"></textarea>
+                            </li>
+                            <li>
+                                <button class="submit-button" type="submit">Send your message</button>
+                            </li>
+                        </ul>
                     </form>
-                </div>
-                <div class="see-more contact-see-more">
-                    <div class="see-more-grid contact-see-more-grid">
-                        <h2 class="see-more-headline contact-see-more-headline">Reach out and have it done your way</h2>
-                        <img class="see-more-img contact-see-more-img contact-gwen" src="images/gwen.png" alt="Gwen">
-                        <a class="see-more-button contact-see-more-button" href="gallery-en.html">See More</a>
-                    </div>
                 </div>
             </div>
         </main>
@@ -64,5 +74,6 @@
             </div>
         </footer>
     </div>
+    <script src="scripts/form_feedback.js"></script>
 </body>
 </html>

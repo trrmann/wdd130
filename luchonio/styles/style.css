@@ -541,6 +541,96 @@ section.mySlides a {
     border-style: outset;
 }
 
+.contact-background {
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(circle, var(--nav-background-color), var(--paragraph-background-color));
+    color: var(--paragraph-color-on-color);
+}
+
+.contact-headline {
+    font-family: var(--heading-font);
+    font-weight: bold;
+    text-align: center;
+}
+
+.form {
+    /* Center the form on the page */
+    margin: 0 auto;
+    width: 400px;
+    height: 300px;
+    /* form outline */
+    padding: 1em;
+    border: 1px solid var(--secondary-color);
+    border-radius: 1em;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+.label {
+    /* Uniform size and alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.input, .textarea {
+    /* to make sure that all text fields have the same font settings
+    by default, textareas have a monospace font */
+    font: 1em var(--paragraph-font);
+
+    /* uniform text field size */
+    box-sizing: border-box;
+
+    /* match form field borders */
+    border: 1px solid var(--secondary-color);
+}
+
+.input:focus,
+.textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: var(--primary-color);
+}
+
+.textarea {
+  /* Align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* Provide space to type some text */
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+.submit-button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 0.5em;
+}
+
+#feedback {
+    background-color: var(--accent3-color);
+    color: var(--accent1-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    /* make this element invisible until we are ready for it */
+    display: none;      
+}
+
 .footer {
     height: 100%;
     width: 100%;
@@ -1599,11 +1689,11 @@ section.mySlides a {
 
 /* contact content-grid */
     .contact-header {
-        grid-row: 1/12;
+        grid-row: 1/15;
     }
                     
     .contact-main {
-        grid-row: 12/76;
+        grid-row: 15/76;
     }
                     
     .contact-footer {
@@ -1637,114 +1727,19 @@ section.mySlides a {
         grid-column: 1/36;
     }
                     
-    .contact-slide-show {
-        grid-row: 1/76;
+    .contact-background {
+        grid-row: 1/101;
         grid-column: 36/101;
     }
-                
-    .contact-see-more {
-        grid-row: 76/101;
-        grid-column: 36/101;
-        min-height: 75px;
-    }    
-    
-/* contact slide-show-grid */
-    /**
-    .contact-slide-show-grid {
-    }
-    /**/
 
-    .contact-slide-show-display {
-        grid-column: 2/99;
-    }
-                
-    .contact-slide-show-prev,
-    .contact-slide-show-next {
-        display: none;
+    .form {
+        width: 200px;
     }
 
-    /* Position the "next button" to the right */
-    /**
-    .contact-slide-show-next {
-    }
-    /**/
-
-/* contact slide-show-display-grid */
-    /**
-    .contact-slide-show-display-grid {
-    }
-    /**/
-
-    .contact-slide-show-headline {
-        grid-row: 1/6;
-    }
-            
-    .contact-slide-show-row {
-        grid-row: 6/25;
-    }
-        
-    .contact-mySlides {
-        grid-row: 25/101;
+    .input, .textarea {
+        width: 100px;
     }
 
-/* contact slide-grid */
-    /**
-    .contact-slide-grid {
-    }
-    /**/
-
-    .contact-slide-headline{
-        grid-row: 1/4;
-    }
-
-    .contact-numbertext {
-        grid-row: 4/8;
-    }
-
-    .contact-card-img-grid {
-        grid-row: 8/45;
-    }
-
-    .contact-slide-text {
-        grid-row: 45/101;
-        min-height: 500px;
-    }
-
-/* contact card-img-grid */
-    /**
-    .contact-card-img {
-    }
-    /**/
-
-/* contact see-more-grid */
-    /**
-    .contact-see-more-grid {
-    }
-    /**/
-
-    .contact-see-more-headline {
-        grid-row: 20/23;
-        z-index: 1;
-        color: white;
-        font-size: large;
-    }
-                    
-    .contact-see-more-img {
-        grid-row: 1/95;
-        grid-column: 23/77;    
-    }
-    
-    /**
-    .contact-gwen {
-    }
-    /**/
-
-    .contact-see-more-button {
-        grid-row: 75/99;
-        grid-column: 30/71;
-        font-size:small;
-    }    
-        
 /* contact footer-grid */
     /**
     .contact-footer-grid {
@@ -2757,11 +2752,11 @@ section.mySlides a {
 
     /* contact content-grid */
         .contact-header {
-            grid-row: 1/12;
+            grid-row: 1/19;
         }
                         
         .contact-main {
-            grid-row: 12/76;
+            grid-row: 19/76;
         }
                         
         .contact-footer {
@@ -2795,115 +2790,19 @@ section.mySlides a {
             grid-column: 1/26;
         }
                         
-        .contact-slide-show {
-            grid-row: 1/76;
+        .contact-background {
+            grid-row: 1/101;
             grid-column: 26/101;
         }
-                    
-        .contact-see-more {
-            grid-row: 76/101;
-            grid-column: 26/101;
-            min-height: 75px;
-        }    
 
-    /* contact slide-show-grid */
-        /**
-        .contact-slide-show-grid {
-        }
-        /**/
-
-        .contact-slide-show-display {
-            grid-column: 2/99;
-        }
-                    
-        .contact-slide-show-prev,
-        .contact-slide-show-next {
-            display: none;
+        .form {
+            width: 300px;
         }
 
-        /* Position the "next button" to the right */
-        /**
-        .contact-slide-show-next {
+        .input, .textarea {
+            width: 200px;
         }
-        /**/
-
-    /* contact slide-show-display-grid */
-        /**
-        .contact-slide-show-display-grid {
-        }
-        /**/
-
-        .contact-slide-show-headline {
-            grid-row: 1/6;
-        }
-                
-        .contact-slide-show-row {
-            grid-row: 6/25;
-        }
-            
-        .contact-mySlides {
-            grid-row: 25/101;
-        }
-
-    /* contact slide-grid */
-        /**
-        .contact-slide-grid {
-        }
-        /**/
-
-        .contact-slide-headline{
-            grid-row: 1/4;
-        }
-
-        .contact-numbertext {
-            grid-row: 4/8;
-        }
-
-        .contact-card-img-grid {
-            grid-row: 8/45;
-        }
-
-        .contact-slide-text {
-            grid-row: 45/101;
-            min-height: 500px;
-        }
-
-    /* contact card-img-grid */
-        /**
-        .contact-card-img {
-        }
-        /**/
-
-    /* contact see-more-grid */
-        /**
-        .contact-see-more-grid {
-        }
-        /**/
-
-        .contact-see-more-headline {
-            grid-row: 20/23;
-            z-index: 1;
-            color: white;
-            font-size: large;
-        }
-                        
-        .contact-see-more-img {
-            grid-row: 1/95;
-            grid-column: 23/77;    
-        }
-
-        /**
-        .contact-gwen {
-        }
-        /**/
-
-        .contact-see-more-button {
-            grid-row: 75/99;
-            grid-column: 30/71;
-            font-size:small;
-        }    
-        
-    /* contact footer-grid */
+            /* contact footer-grid */
         /**
         .contact-footer-grid {
         }
@@ -3909,11 +3808,11 @@ section.mySlides a {
 
 /* contact content-grid */
 .contact-header {
-    grid-row: 1/12;
+    grid-row: 1/24;
 }
                 
 .contact-main {
-    grid-row: 12/76;
+    grid-row: 24/76;
 }
                 
 .contact-footer {
@@ -3947,114 +3846,19 @@ section.mySlides a {
     grid-column: 1/20;
 }
                 
-.contact-slide-show {
-    grid-row: 1/76;
+.contact-background {
+    grid-row: 1/101;
     grid-column: 20/101;
 }
-            
-.contact-see-more {
-    grid-row: 76/101;
-    grid-column: 20/101;
-    min-height: 75px;
-}    
 
-/* contact slide-show-grid */
-/**
-.contact-slide-show-grid {
-}
-/**/
-
-.contact-slide-show-display {
-    grid-column: 2/99;
-}
-            
-.contact-slide-show-prev,
-.contact-slide-show-next {
-    display: none;
+.form {
+    width: 400px;
 }
 
-/* Position the "next button" to the right */
-/**
-.contact-slide-show-next {
-}
-/**/
-
-/* contact slide-show-display-grid */
-/**
-.contact-slide-show-display-grid {
-}
-/**/
-
-.contact-slide-show-headline {
-    grid-row: 1/6;
-}
-        
-.contact-slide-show-row {
-    grid-row: 6/25;
-}
-    
-.contact-mySlides {
-    grid-row: 25/101;
+.input, .textarea {
+    width: 300px;
 }
 
-/* contact slide-grid */
-/**
-.contact-slide-grid {
-}
-/**/
-
-.contact-slide-headline{
-    grid-row: 1/4;
-}
-
-.contact-numbertext {
-    grid-row: 4/8;
-}
-
-.contact-card-img-grid {
-    grid-row: 8/45;
-}
-
-.contact-slide-text {
-    grid-row: 45/101;
-    min-height: 500px;
-}
-
-/* contact card-img-grid */
-/**
-.contact-card-img {
-}
-/**/
-
-/* contact see-more-grid */
-/**
-.contact-see-more-grid {
-}
-/**/
-
-.contact-see-more-headline {
-    grid-row: 20/23;
-    z-index: 1;
-    color: white;
-    font-size: large;
-}
-                
-.contact-see-more-img {
-    grid-row: 1/95;
-    grid-column: 23/77;    
-}
-
-/**
-.contact-gwen {
-}
-/**/
-
-.contact-see-more-button {
-    grid-row: 75/99;
-    grid-column: 30/71;
-    font-size:small;
-}    
-    
 /* contact footer-grid */
 /**
 .contact-footer-grid {
@@ -5074,11 +4878,11 @@ div>h2.hero-title {
 
 /* contact content-grid */
 .contact-header {
-    grid-row: 1/12;
+    grid-row: 1/25;
 }
                 
 .contact-main {
-    grid-row: 12/76;
+    grid-row: 25/76;
 }
                 
 .contact-footer {
@@ -5112,114 +4916,20 @@ div>h2.hero-title {
     grid-column: 1/20;
 }
                 
-.contact-slide-show {
-    grid-row: 1/76;
+.contact-background {
+    grid-row: 1/101;
     grid-column: 20/101;
 }
-            
-.contact-see-more {
-    grid-row: 76/101;
-    grid-column: 20/101;
-    min-height: 75px;
-}    
 
-/* contact slide-show-grid */
-/**
-.contact-slide-show-grid {
-}
-/**/
-
-.contact-slide-show-display {
-    grid-column: 2/99;
-}
-            
-.contact-slide-show-prev,
-.contact-slide-show-next {
-    display: none;
+.form {
+    width: 500px;
 }
 
-/* Position the "next button" to the right */
-/**
-.contact-slide-show-next {
-}
-/**/
 
-/* contact slide-show-display-grid */
-/**
-.contact-slide-show-display-grid {
-}
-/**/
-
-.contact-slide-show-headline {
-    grid-row: 1/6;
-}
-        
-.contact-slide-show-row {
-    grid-row: 6/25;
-}
-    
-.contact-mySlides {
-    grid-row: 25/101;
+.input, .textarea {
+    width: 400px;
 }
 
-/* contact slide-grid */
-/**
-.contact-slide-grid {
-}
-/**/
-
-.contact-slide-headline{
-    grid-row: 1/4;
-}
-
-.contact-numbertext {
-    grid-row: 4/8;
-}
-
-.contact-card-img-grid {
-    grid-row: 8/45;
-}
-
-.contact-slide-text {
-    grid-row: 45/101;
-    min-height: 500px;
-}
-
-/* contact card-img-grid */
-/**
-.contact-card-img {
-}
-/**/
-
-/* contact see-more-grid */
-/**
-.contact-see-more-grid {
-}
-/**/
-
-.contact-see-more-headline {
-    grid-row: 20/23;
-    z-index: 1;
-    color: white;
-    font-size: large;
-}
-                
-.contact-see-more-img {
-    grid-row: 1/95;
-    grid-column: 23/77;    
-}
-
-/**
-.contact-gwen {
-}
-/**/
-
-.contact-see-more-button {
-    grid-row: 75/99;
-    grid-column: 30/71;
-    font-size:small;
-}    
-    
 /* contact footer-grid */
 /**
 .contact-footer-grid {
@@ -6237,11 +5947,11 @@ div>h2.hero-title {
 
 /* contact content-grid */
 .contact-header {
-    grid-row: 1/12;
+    grid-row: 1/30;
 }
                 
 .contact-main {
-    grid-row: 12/76;
+    grid-row: 30/76;
 }
                 
 .contact-footer {
@@ -6275,114 +5985,19 @@ div>h2.hero-title {
     grid-column: 1/20;
 }
                 
-.contact-slide-show {
-    grid-row: 1/76;
+.contact-background {
+    grid-row: 1/101;
     grid-column: 20/101;
 }
-            
-.contact-see-more {
-    grid-row: 76/101;
-    grid-column: 20/101;
-    min-height: 75px;
-}    
 
-/* contact slide-show-grid */
-/**
-.contact-slide-show-grid {
-}
-/**/
-
-.contact-slide-show-display {
-    grid-column: 2/99;
-}
-            
-.contact-slide-show-prev,
-.contact-slide-show-next {
-    display: none;
+.form {
+    width: 600px;
 }
 
-/* Position the "next button" to the right */
-/**
-.contact-slide-show-next {
-}
-/**/
-
-/* contact slide-show-display-grid */
-/**
-.contact-slide-show-display-grid {
-}
-/**/
-
-.contact-slide-show-headline {
-    grid-row: 1/6;
+.input, .textarea {
+    width: 500px;
 }
         
-.contact-slide-show-row {
-    grid-row: 6/25;
-}
-    
-.contact-mySlides {
-    grid-row: 25/101;
-}
-
-/* contact slide-grid */
-/**
-.contact-slide-grid {
-}
-/**/
-
-.contact-slide-headline{
-    grid-row: 1/4;
-}
-
-.contact-numbertext {
-    grid-row: 4/8;
-}
-
-.contact-card-img-grid {
-    grid-row: 8/45;
-}
-
-.contact-slide-text {
-    grid-row: 45/101;
-    min-height: 500px;
-}
-
-/* contact card-img-grid */
-/**
-.contact-card-img {
-}
-/**/
-
-/* contact see-more-grid */
-/**
-.contact-see-more-grid {
-}
-/**/
-
-.contact-see-more-headline {
-    grid-row: 20/23;
-    z-index: 1;
-    color: white;
-    font-size: large;
-}
-                
-.contact-see-more-img {
-    grid-row: 1/95;
-    grid-column: 23/77;    
-}
-
-/**
-.contact-gwen {
-}
-/**/
-
-.contact-see-more-button {
-    grid-row: 75/99;
-    grid-column: 30/71;
-    font-size:small;
-}    
-    
 /* contact footer-grid */
 /**
 .contact-footer-grid {
