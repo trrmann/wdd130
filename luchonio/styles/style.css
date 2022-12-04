@@ -52,6 +52,7 @@
     background-color: var(--accent2-color);
     color: var(--paragraph-color);
     font-family: var(--paragraph-font);
+    font-size: 22px;
     height: 100%;
     width: 100%;
     margin: 0px;
