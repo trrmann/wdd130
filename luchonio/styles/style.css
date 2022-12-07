@@ -378,7 +378,8 @@ section.mySlides a {
     height: 100%;
     width: 100%;
     font-family: var(--paragraph-font);
-    font-weight: var(--font-size-normal);
+    font-size: var(--font-size-normal);
+    font-weight: normal;
     text-align: left;
 }
 
@@ -494,7 +495,8 @@ section.mySlides a {
     text-indent: 10%;
     text-align: left;
     font-family: var(--paragraph-font);
-    font-weight: var(--font-size-normal);
+    font-size: var(--font-size-normal);
+    font-weight: normal;
     line-height: 1.1rem;
 }
 
