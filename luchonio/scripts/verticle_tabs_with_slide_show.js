@@ -20,10 +20,7 @@ function showSlides(n) {
   if (n < 1) {slideIndex = slides.length}
   if ((n == 1) || (n > slides.length)) { imageNumberClass = "tab1" }
   if (n == 2) { imageNumberClass = "tab2" }
-  if (n == 3) { imageNumberClass = "tab3" }
-  if (n == 4) { imageNumberClass = "tab4" }
-  if (n == 5) { imageNumberClass = "tab5" }
-  if ((n == 6) || (n < 1)) { imageNumberClass = "tab6" }
+  if ((n == 3) || (n < 1)) { imageNumberClass = "tab3" }
   for (i = 0; i < tablinks.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }  
