@@ -1,7 +1,12 @@
 {
-    "folders": [
-        {
-            "path": "."
-        }
-    ]
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"projectManager.git.baseFolders": [
+			"C:\\Users\\Public\\OneDrive\\Documents\\Projects\\BYU-I"
+		]
+	}
 }
